@@ -1,0 +1,20 @@
+.ly {
+  display: flex;
+  &--center {
+    justify-content: center;
+  }
+  &--right {
+    justify-content: flex-end;
+  }
+  &--justify {
+    justify-content: space-between;
+  }
+  &__item {
+    &--fill {
+      flex-grow: 1;
+    }
+  }
+  &--middle {
+    align-items: center;
+  }
+}
