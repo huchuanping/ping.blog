@@ -7,6 +7,7 @@
 	        <el-menu-item index="2"><a href="https://huchuanping.github.io/front-end-demos/">Demos</a></el-menu-item>
 	        <el-menu-item index="3"><a href="https://github.com/huchuanping">GitHub</a></el-menu-item>
 	        <el-menu-item index="4"><a href="http://www.jianshu.com/u/3ce4036abcb6">知识杂谈</a></el-menu-item>
+	        <el-menu-item index="4"><a href="http://f2er.club/">前端俱乐部</a></el-menu-item>
 	        <el-menu-item index="5"><a href="">关于我</a></el-menu-item>   
     	</div>
     </el-menu>
