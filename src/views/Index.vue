@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <nv-head></nv-head>
     <!-- 小动画或者特效 -->
     <!-- 轮播图 -->
     <banner></banner>
@@ -65,18 +64,13 @@
         </div>
       </div>
     </div>
-    <foot></foot>
   </div>
 </template>
 
 <script>
-import nvHead from '@/components/Head'
-import Foot from '@/components/Footer'
 import Banner from '@/components/Banner'
 export default {
   components: {
-    'nv-head': nvHead,
-    'foot': Foot,
     'banner': Banner
   },
   data () {
