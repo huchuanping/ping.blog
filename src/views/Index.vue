@@ -2,6 +2,7 @@
   <div class="home">
     <nv-head></nv-head>
     <h2 style="line-height: 60px">开源作品展示</h2>
+    <!-- 小动画或者特效 -->
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 ">
@@ -62,14 +63,17 @@
         </div>
       </div>
     </div>
+    <foot></foot>
   </div>
 </template>
 
 <script>
 import nvHead from '@/components/Head'
+import Foot from '@/components/Footer'
 export default {
   components: {
-    'nv-head': nvHead
+    'nv-head': nvHead,
+    'foot': Foot
   },
   data () {
     return {
