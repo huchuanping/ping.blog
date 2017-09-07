@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <nv-head></nv-head>
-    <h2 style="line-height: 60px">开源作品展示</h2>
     <!-- 小动画或者特效 -->
+    <!-- 轮播图 -->
+    <banner></banner>
+    <h2 style="line-height: 80px">开源作品展示</h2>
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-4 col-lg-3 ">
@@ -70,10 +72,12 @@
 <script>
 import nvHead from '@/components/Head'
 import Foot from '@/components/Footer'
+import Banner from '@/components/Banner'
 export default {
   components: {
     'nv-head': nvHead,
-    'foot': Foot
+    'foot': Foot,
+    'banner': Banner
   },
   data () {
     return {
